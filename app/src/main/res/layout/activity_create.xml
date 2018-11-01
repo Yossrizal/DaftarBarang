@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/vertical"
+    android:paddingLeft="@dimen/horizontal"
+    android:paddingRight="@dimen/horizontal"
+    android:paddingBottom="@dimen/vertical"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.yossr.androidcrud.MainCreate">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Barang"
+        android:textSize="28dp"/>
+    <Button android:id="@+id/scan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCAN BARCODE" />
+    <EditText
+        android:id="@+id/create_barcode"
+        android:hint="Barcode"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical" />
+    <EditText
+        android:id="@+id/create_nama"
+        android:hint="Nama Barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical" />
+    <EditText
+        android:id="@+id/create_harga"
+        android:hint="Harga"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical" />
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical"
+        android:text="Create"/>
+
+
+
+</LinearLayout>

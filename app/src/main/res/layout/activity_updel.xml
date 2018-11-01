@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_updel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/vertical"
+    android:paddingLeft="@dimen/horizontal"
+    android:paddingRight="@dimen/horizontal"
+    android:paddingBottom="@dimen/vertical"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.yossr.androidcrud.MainUpdel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perbarui Barang"
+        android:textSize="28dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/vertical"
+        android:paddingBottom="@dimen/vertical"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+
+            android:hint="Barcode :"
+            android:paddingRight="20dp"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/vertical" />
+        <TextView
+            android:id="@+id/update_barcode"
+            android:hint="Barcode"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/vertical" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/update_nama"
+        android:hint="Nama Barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical" />
+    <EditText
+        android:id="@+id/update_harga"
+        android:hint="Harga"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical" />
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical"
+        android:text="Update"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical"
+        android:text="Delete"/>
+
+
+
+</LinearLayout>

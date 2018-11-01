@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/vertical"
+    android:paddingLeft="@dimen/horizontal"
+    android:paddingRight="@dimen/horizontal"
+    android:paddingBottom="@dimen/vertical"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.yossr.androidcrud.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Barang"
+        android:textSize="28dp"/>
+
+    <Button
+        android:onClick="btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical"
+        android:text="Tambah Barang"/>
+    <Button
+        android:onClick="btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical"
+        android:text="Lihat Barang"/>
+    <Button
+        android:id="@+id/scan_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical"
+        android:text="Scan Harga" />
+    <TextView
+        android:paddingTop="@dimen/vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by Blah Bloh Lah" />
+
+
+</LinearLayout>
