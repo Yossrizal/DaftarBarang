@@ -1,0 +1,4 @@
+#Thu Nov 01 21:52:18 ICT 2018
+base.0=F\:\\_KULIAH\\SMT_7\\MOBILE\\ANDROID STUDIO\\10515203_2\\AndroidCrud\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
