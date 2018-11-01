@@ -1,4 +1,6 @@
-# DaftarBarang
-Made Using Zxing Library for Barcode Scan
-and
-SQLite for database
+# DaftarBarang &nbsp;
+Made Using Zxing Library for Barcode Scan&nbsp;
+and&nbsp;
+SQLite for database &nbsp; &nbsp;
+
+This app can add or search with scan barcode 
